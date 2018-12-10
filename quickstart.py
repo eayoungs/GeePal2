@@ -37,12 +37,12 @@ def main():
     if not events:
         print('No upcoming events found.')
     for event in events:
-        with open('events.json', 'w') as f:
-            json.dump(events, f)
+        # with open('events.json', 'w') as f:
+        #     json.dump(events, f)
         start = event['start'].get('dateTime', event['start'].get('date'))
         end = event['end'].get('dateTime', event['end'].get('date'))
         geevent = GeEvent(event['summary'], start, end)
-        print(geevent.start, geevent.end, geevent.summary)
+        print(geevent.start, geevent.end, geevent.summary, geevent.duration)
 
 
 if __name__ == '__main__':
