@@ -3,9 +3,11 @@ import datetime
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
+from geevent import GeEvent
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
+
 
 def main():
     """Shows basic usage of the Google Calendar API.
@@ -22,11 +24,11 @@ def main():
     service = build('calendar', 'v3', http=creds.authorize(Http()))
 
     # Call the Calendar API
-    now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
+    now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC
     print('Getting the upcoming 10 events')
     events_result = service.events().list(calendarId='primary', timeMin=now,
-                                        maxResults=10, singleEvents=True,
-                                        orderBy='startTime').execute()
+                                          maxResults=10, singleEvents=True,
+                                          orderBy='startTime').execute()
     events = events_result.get('items', [])
 
     if not events:
@@ -34,6 +36,7 @@ def main():
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
+
 
 if __name__ == '__main__':
     main()
