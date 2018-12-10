@@ -1,0 +1,458 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "\"3067160726785000\"",
+    "id": "b68d4n2lisf09eo8rlcqks22do_20181211T013000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=YjY4ZDRuMmxpc2YwOWVvOHJsY3FrczIyZG9fMjAxODEyMTFUMDEzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T23:51:39.000Z",
+    "updated": "2018-08-06T18:32:43.411Z",
+    "summary": "Dinner with Grandma",
+    "location": "Somewhere Special",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-10T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-10T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "b68d4n2lisf09eo8rlcqks22do",
+    "originalStartTime": {
+      "dateTime": "2018-12-10T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "b68d4n2lisf09eo8rlcqks22do@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 120
+        },
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ]
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3056815084250000\"",
+    "id": "26gd4889rvl6jrcn4iaj0h8kl0_20181212T023000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MjZnZDQ4ODlydmw2anJjbjRpYWowaDhrbDBfMjAxODEyMTJUMDIzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T21:39:02.000Z",
+    "updated": "2018-06-07T21:39:02.125Z",
+    "summary": "OpenOakland Civic Hack Night",
+    "description": "For full details, including the address, and to RSVP see: https://www.meetup.com/OpenOakland/events/249893718\n\nJoin us for our weekly civic hacking and community meeting inside City Hall.\n\nEveryone interested in...",
+    "location": "City Hall, Hearing Room 4 - 1 Frank H Ogawa Plaza, Oakland, CA - Oakland, CA, us",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-11T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-11T21:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "26gd4889rvl6jrcn4iaj0h8kl0",
+    "originalStartTime": {
+      "dateTime": "2018-12-11T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "26gd4889rvl6jrcn4iaj0h8kl0@google.com",
+    "sequence": 0,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": true
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3069066152870000\"",
+    "id": "285uqj9hldleae4i60hfvj041d_20181212",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Mjg1dXFqOWhsZGxlYWU0aTYwaGZ2ajA0MWRfMjAxODEyMTIgZWF5b3VuZ3NAbQ",
+    "created": "2018-08-17T19:11:16.000Z",
+    "updated": "2018-08-17T19:11:16.435Z",
+    "summary": "Zipcar billing: Insurance",
+    "description": "$9",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "date": "2018-12-12"
+    },
+    "end": {
+      "date": "2018-12-13"
+    },
+    "recurringEventId": "285uqj9hldleae4i60hfvj041d",
+    "originalStartTime": {
+      "date": "2018-12-12"
+    },
+    "transparency": "transparent",
+    "iCalUID": "285uqj9hldleae4i60hfvj041d@google.com",
+    "sequence": 0,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 900
+        }
+      ]
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3004146186134000\"",
+    "id": "1cingqaen2jjuki6do7c6g6sa5_20181213T020000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MWNpbmdxYWVuMmpqdWtpNmRvN2M2ZzZzYTVfMjAxODEyMTNUMDIwMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2017-08-07T02:30:45.000Z",
+    "updated": "2017-08-07T02:31:33.067Z",
+    "summary": "Weekly Civic Hack Night",
+    "description": "For full details, including the address, and to RSVP see:\nhttps://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/241230288/\nCode for San Francisco - Civic Hack Night\nInterested in helping San Francisco? You have found the right place!\nJoin neighbors, government employees, designers, coders, students and more!...",
+    "location": "Code for America - 155 9th St. - San Francisco, CA 94103",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-12T18:00:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-12T21:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "1cingqaen2jjuki6do7c6g6sa5",
+    "originalStartTime": {
+      "dateTime": "2018-12-12T18:00:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "1cingqaen2jjuki6do7c6g6sa5@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3068713531604000\"",
+    "id": "4ld74s74s6l55jcctesni1d9en_20181213T023000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NGxkNzRzNzRzNmw1NWpjY3Rlc25pMWQ5ZW5fMjAxODEyMTNUMDIzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-08-15T18:12:45.000Z",
+    "updated": "2018-08-15T18:12:45.802Z",
+    "summary": "DVC: ELECT 266",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-12T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-12T21:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "4ld74s74s6l55jcctesni1d9en",
+    "originalStartTime": {
+      "dateTime": "2018-12-12T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "4ld74s74s6l55jcctesni1d9en@google.com",
+    "sequence": 0,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": true
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3067160726785000\"",
+    "id": "b68d4n2lisf09eo8rlcqks22do_20181214T013000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=YjY4ZDRuMmxpc2YwOWVvOHJsY3FrczIyZG9fMjAxODEyMTRUMDEzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T23:51:39.000Z",
+    "updated": "2018-08-06T18:32:43.411Z",
+    "summary": "Dinner with Grandma",
+    "location": "Somewhere Special",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-13T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-13T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "b68d4n2lisf09eo8rlcqks22do",
+    "originalStartTime": {
+      "dateTime": "2018-12-13T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "b68d4n2lisf09eo8rlcqks22do@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 120
+        },
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ]
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3068709870554000\"",
+    "id": "0m2gqgdku4unci0lg0kdo331st",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MG0yZ3FnZGt1NHVuY2kwbGcwa2RvMzMxc3QgZWF5b3VuZ3NAbQ",
+    "created": "2018-08-15T17:42:15.000Z",
+    "updated": "2018-08-15T17:42:15.277Z",
+    "summary": "DVC: End of Fall term Classes",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "date": "2018-12-15"
+    },
+    "end": {
+      "date": "2018-12-16"
+    },
+    "transparency": "transparent",
+    "iCalUID": "0m2gqgdku4unci0lg0kdo331st@google.com",
+    "sequence": 0,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 900
+        }
+      ]
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3056814689270000\"",
+    "id": "0ldrd1bcmv19o68vrfkbcqdprm_20181215T180000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MGxkcmQxYmNtdjE5bzY4dnJma2JjcWRwcm1fMjAxODEyMTVUMTgwMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T21:26:38.000Z",
+    "updated": "2018-06-07T21:35:44.635Z",
+    "summary": "Solidity Saturdays: P2P Learning",
+    "description": "For full details, including the address, and to RSVP see: https://www.meetup.com/SF_Ethereum/events/250823584\n\nThrough doing these events we've noticed Meetup has some bugs regarding the date/time. This event al...",
+    "location": "Starfish Mission - 1535 Mission St. - San Francisco, ca, us",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-15T10:00:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-15T15:00:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "0ldrd1bcmv19o68vrfkbcqdprm",
+    "originalStartTime": {
+      "dateTime": "2018-12-15T10:00:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "0ldrd1bcmv19o68vrfkbcqdprm@google.com",
+    "sequence": 1,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": true
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3067160726785000\"",
+    "id": "b68d4n2lisf09eo8rlcqks22do_20181218T013000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=YjY4ZDRuMmxpc2YwOWVvOHJsY3FrczIyZG9fMjAxODEyMThUMDEzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T23:51:39.000Z",
+    "updated": "2018-08-06T18:32:43.411Z",
+    "summary": "Dinner with Grandma",
+    "location": "Somewhere Special",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-17T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-17T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "b68d4n2lisf09eo8rlcqks22do",
+    "originalStartTime": {
+      "dateTime": "2018-12-17T17:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "b68d4n2lisf09eo8rlcqks22do@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 120
+        },
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ]
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3056815084250000\"",
+    "id": "26gd4889rvl6jrcn4iaj0h8kl0_20181219T023000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MjZnZDQ4ODlydmw2anJjbjRpYWowaDhrbDBfMjAxODEyMTlUMDIzMDAwWiBlYXlvdW5nc0Bt",
+    "created": "2018-06-07T21:39:02.000Z",
+    "updated": "2018-06-07T21:39:02.125Z",
+    "summary": "OpenOakland Civic Hack Night",
+    "description": "For full details, including the address, and to RSVP see: https://www.meetup.com/OpenOakland/events/249893718\n\nJoin us for our weekly civic hacking and community meeting inside City Hall.\n\nEveryone interested in...",
+    "location": "City Hall, Hearing Room 4 - 1 Frank H Ogawa Plaza, Oakland, CA - Oakland, CA, us",
+    "creator": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "organizer": {
+      "email": "someonespecial@gmail.com",
+      "displayName": "Someone Special",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2018-12-18T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2018-12-18T21:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "recurringEventId": "26gd4889rvl6jrcn4iaj0h8kl0",
+    "originalStartTime": {
+      "dateTime": "2018-12-18T18:30:00-08:00",
+      "timeZone": "America/Los_Angeles"
+    },
+    "iCalUID": "26gd4889rvl6jrcn4iaj0h8kl0@google.com",
+    "sequence": 0,
+    "extendedProperties": {
+      "private": {
+        "everyoneDeclinedDismissed": "-1"
+      }
+    },
+    "reminders": {
+      "useDefault": true
+    }
+  }
+]

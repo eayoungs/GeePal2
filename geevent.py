@@ -4,5 +4,5 @@ class GeEvent:
         self.start = start
         self.end = end
 
-    def get_duration(self, start, end):
+    def calc_duration(self, start, end):
         self.duration = self.end - self.start

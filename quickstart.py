@@ -1,8 +1,11 @@
 from __future__ import print_function
 import datetime
+import json
+
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
+
 from geevent import GeEvent
 
 # If modifying these scopes, delete the file token.json.
@@ -34,6 +37,8 @@ def main():
     if not events:
         print('No upcoming events found.')
     for event in events:
+        with open('events.json', 'w') as f:
+            json.dump(events, f)
         start = event['start'].get('dateTime', event['start'].get('date'))
         end = event['end'].get('dateTime', event['end'].get('date'))
         geevent = GeEvent(event['summary'], start, end)
