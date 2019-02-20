@@ -1,7 +1,17 @@
 import datetime
 from googleapiclient.http import HttpMock
+import pytest
 
 from geevent import GeEvent, GeeProject
+
+
+@pytest.fixture
+def gcal_data():
+    http = HttpMock('mock.json', {'status': '200'})
+    api_key = 'your_api_key'
+    service = build('calendar', 'v3', http=http, developerKey=api_key)
+
+    return service.events()
 
 
 class TestGeevent(object):

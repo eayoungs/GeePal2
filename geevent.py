@@ -18,5 +18,5 @@ class GeeProject:
         self.project_id = project_id
         self.events = []
 
-    def add_events(self, event):
+    def add_event(self, event):
         self.events = self.events.append(event)
