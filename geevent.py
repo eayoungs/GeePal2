@@ -2,7 +2,8 @@ import iso8601
 
 
 class GeEvent:
-    def __init__(self, summary, start, end):
+    def __init__(self, geevent_id, summary, start, end):
+        self.geevent_id = geevent_id
         self.summary = summary
         self.start = start
         self.end = end

@@ -41,7 +41,7 @@ def main():
         #     json.dump(events, f)
         start = event['start'].get('dateTime', event['start'].get('date'))
         end = event['end'].get('dateTime', event['end'].get('date'))
-        geevent = GeEvent(event['summary'], start, end)
+        geevent = GeEvent(event['id'], event['summary'], start, end)
         print(geevent.start, geevent.end, geevent.summary, geevent.duration)
 
 
