@@ -6,28 +6,31 @@ import pytest
 from geevent import GeEvent, GeeProject
 
 
-@pytest.fixture
-def gcal_data():
-    http = HttpMock('mock.json', {'status': '200'})
+@pytest.fixture(scope="module")
+def gcal_mock():
+    http = HttpMock('calendar-discovery.json', {'status': '200'})
     api_key = 'your_api_key'
     service = build('calendar', 'v3', http=http, developerKey=api_key)
 
-    return service.events()
+    return service
 
 
-class TestGeevent(object):
+@pytest.fixture(scope="module")
+def gcal_geevent(gcal_mock):
+    pass
+
+
+class TestGeEvent(object):
+    def test_init(self, gcal_mock):
+        pass
+
+
+class TestGeProject(object):
     def test_init(self):
-        geevent = GeEvent("01",
-                          "Summary",
-                          "2018-12-10T17:30:00-08:00",
-                          "2018-12-10T18:30:00-08:00")
-        assert geevent
-        assert type(geevent.duration) is datetime.timedelta
+        pass
 
+    def test_add(self, gcal_geevent):
+        pass
 
-class TestGeeProject(object):
-    def test_init(self):
-        geeproject = GeeProject("Work")
-
-        assert geeproject
-        assert geeproject.project_id == "Work"
+service = gcal_mock()
+print(service.events)
